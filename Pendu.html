@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="Pendu.css">
+</head>
+<body>
+    <h1>Jeu du Pendu</h1>
+    <p id="mot"></p>
+    <form id="formulaire">
+        <input type="text" id="lettre" maxlength="1">
+        <button type="submit">Proposer</button>
+    </form>
+    <p id="lettresUtilisees">Lettres utilisées</p>
+    <p id="erreurs">Erreurs : 0 / 7</p>
+    <p id="message"></p>
+    <div id="pendu">
+    <div id="tete"></div>
+        <div id="corps"></div>
+        <div id="brasGauche"></div>
+        <div id="brasDroit"></div>
+        <div id="jambeGauche"></div>
+        <div id="jambeDroite"></div>
+    </div>
+    <button id="rejouer">rejouer</button>
+    <script src="Pendu.js"></script>
+</body>
+</html>

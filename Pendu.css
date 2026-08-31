@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#mot {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+input {
+  width: 40px;
+  text-align: center;
+  font-size: 23px;
+}
+button {
+  padding: 8px 15px;
+}
+#pendu {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  margin: 20px auto;
+}
+#tete {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+#corps {
+  display: none;
+  width: 3px;
+  height: 80px;
+  background: black;
+  position: absolute;
+  top: 63px;
+  left: 100px;
+}
+#brasGauche, #brasDroit {
+  display: none;
+  width: 60px;
+  height: 3px;
+  background: black;
+  position: absolute;
+  top: 85px;
+}
+#brasGauche {
+  left: 45px;
+  transform: rotate(30deg);
+}
+#brasDroit {
+  left: 98px;
+  transform: rotate(-30deg);
+}
+#jambeGauche, #jambeDroite {
+  display: none;
+  width: 60px;
+  height: 3px;
+  background: black;
+  position: absolute;
+  top: 145px;
+}
+#jambeGauche {
+  left: 52px;
+  transform: rotate(-50deg);
+  top: 164px;
+}
+#jambeDroite {
+  left: 91px;
+  transform: rotate(50deg);
+  top: 163px;
+}
+#formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
